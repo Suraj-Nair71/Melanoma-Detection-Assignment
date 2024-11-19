@@ -1,19 +1,19 @@
 **Melanoma Detection Assignment**
 
 In this assignment, we have to build a multiclass classification model using a custom convolutional neural network in TensorFlow. 
-Table of Contents
-General Info
-Technologies Used
-Conclusions
-Acknowledgements
 
-**General Information**
+**Table of Contents**
+1. General Info
+2. Technologies Used
+3. Conclusions
+4. Acknowledgements
+
+**1. General Information**
 
 The dataset comprises 2357 images depicting malignant and benign oncological conditions, sourced from the International Skin Imaging Collaboration (ISIC). These images were categorized based on the classification provided by ISIC, with each subset containing an equal number of images.
 We used the Augmentor library (https://augmentor.readthedocs.io/en/master/) to balance the dataset. This means we created more data for under-represented classes to ensure all classes had a fair chance of being learned by the model.
 
-**Conclusions**
-**Model architecture**
+**2. Conclusions**
 
 Breakdown of the CNN Architecture:
 1. Data Augmentation: The augmentation_data variable specifies techniques to artificially expand the training dataset. This involves random transformations like rotations, scaling, and flipping, enhancing the model's ability to generalize to unseen data.
@@ -28,22 +28,22 @@ Breakdown of the CNN Architecture:
 10. Training: The model is trained for 50 epochs. The ModelCheckpoint callback saves the best-performing model, and EarlyStopping halts training if validation accuracy doesn't improve for 5 epochs.
 
 
-**Technologies Used**
+**3. Technologies Used**
 
-Python - version 3.11.4
-Matplotlib - version 3.7.1
-Numpy - version 1.24.3
-Pandas - version 1.5.3
-Seaborn - version 0.12.2
-Tensorflow - version 2.15.0
+1. Python - version 3.11.4
+2. Matplotlib - version 3.7.1
+3. Numpy - version 1.24.3
+4. Pandas - version 1.5.3
+5. Seaborn - version 0.12.2
+6. Tensorflow - version 2.15.0
 
-**Acknowledgements**
+**4. Acknowledgements**
 
-UpGrad tutorials on Convolution Neural Networks (CNNs) on the learning platform
-Melanoma Skin Cancer
-Introduction to CNN
-Image classification using CNN
-Efficient way to build CNN architecture
+1. UpGrad tutorials on Convolution Neural Networks (CNNs) on the learning platform
+2. Melanoma Skin Cancer
+3. Introduction to CNN
+4. Image classification using CNN
+5. Efficient way to build CNN architecture
 
 **Contact**
 
